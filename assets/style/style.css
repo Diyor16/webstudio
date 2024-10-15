@@ -1,0 +1,252 @@
+@import url('./fonts.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;  
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav__logo{
+    display: flex;
+}
+
+.logo__start{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+.logo__end{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    margin-right: 76px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 40px;
+    margin-right: 256px;
+}
+
+.nav__list-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav__info{
+    display: flex;
+    gap: 40px;
+}
+
+.nav__info-link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header__content{
+    background: #2E2F42;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 112px;
+}
+
+.header__title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    margin-bottom: 48px;
+}
+
+.header__button{
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    color: white;
+    background: #4D5AE5;
+}
+
+.info{
+    display: flex;
+    gap: 24px;
+}
+
+.info__content{
+    row-gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(#2E2F42);
+}
+
+.info__descr{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 120px;
+}
+
+.mean__title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.mean__content{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.team{
+    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team__title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #434455;
+    margin-bottom: 72px;
+}
+
+.team__cards{
+    display: flex;
+    gap: 24px;
+}
+
+.team__card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team__foto{
+    margin-bottom: 32px;
+}
+
+.team__card-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team__card-descr{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.footer{
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.footer__logo{
+    display: flex;
+}
+
+.footer__start{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.footer__end{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer__descr{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
